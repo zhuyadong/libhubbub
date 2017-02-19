@@ -7,7 +7,9 @@
 
 #include <assert.h>
 #include <string.h>
+#ifndef _WIN32
 #include <strings.h>
+#endif
 
 #include <stdio.h>
 

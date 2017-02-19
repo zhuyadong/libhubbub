@@ -8,7 +8,9 @@
 #include <assert.h>
 #include <stdbool.h>
 #include <string.h>
+#ifndef _WIN32
 #include <strings.h>
+#endif
 
 #include <parserutils/charset/mibenum.h>
 
